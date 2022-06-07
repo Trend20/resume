@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+p{
+  color: #8892b0 !important;
+}
+
+h1, i{
+  color: #3281e9;
+}
+
+.resume{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 100px;
+  margin: auto;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.title{
+  display: flex;
+  width: 100%;
+}
+
+.title h1{
+  font-size: 4rem;
+  width: 100%;
+}
+
+.sub-heading{
+  display: flex;
+  width: 100%;
+}
+
+.sub-heading h5{
+  line-height: 1.6;
+  padding: 10px 0px;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.social-links{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.social-links li{
+  list-style: none;
+  color: #000;
+  align-items: center;
+  display: flex;
+}
+
+.social-links li{
+  margin-right: 20px;
+}
+
+.social-links li a{
+  display: flex;
+  text-decoration: none;
+  color: #444c64;
+  font-size: 1.3rem;
+  align-items: center;
+}
+i{
+  margin-right: 10px;
+}
+
+.resume-content{
+  display: flex;
+  padding-top: 100px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.experience h1{
+  font-size: 1.5rem;
+  font-weight: 900;
+  width: 100%;
+}
+
+.role{
+  display:flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.section-title{
+  padding: 15px 0px;
+  width: 100%;
+}
+
+.section-title h3{
+  display: flex;
+  opacity: 0.8;
+}
+.section-title h3 a{
+  margin-left: 5px;
+  color: #4b5268;
+  text-decoration: none;
+}
+
+.section-title p{
+  margin-top: 10px;
+}
+
+.role-description{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.role-description p::before{
+  content: "▹";
+}
+
+.role-description p{
+  padding: 5px 0px;
+  color: #444c64 !important;
+}
+
+.sub-sections{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section-heading{
+  padding: 10px 0px;
+  width: 100%;
+}
+.section-heading h3{
+  padding-bottom: 5px;
+}
+
+.section-heading p{
+  margin-top: 10px;
+  color: #444c64 !important;
+}
+
+.education,
+.projects,
+.interest{
+  margin-top: 10px;
+}
