@@ -72,7 +72,7 @@ header{
   display: flex;
   text-decoration: none;
   color: #444c64;
-  font-size: 1.3rem;
+  font-size: 1rem;
   align-items: center;
 }
 i{
@@ -81,7 +81,7 @@ i{
 
 .resume-content{
   display: flex;
-  padding-top: 100px;
+  padding-top: 50px;
   width: 100%;
   justify-content: space-between;
 }
@@ -159,7 +159,6 @@ i{
 }
 
 .section-heading p{
-  margin-top: 10px;
   color: #444c64 !important;
 }
 
