@@ -19,7 +19,7 @@ h1, i{
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 50px 100px;
+  padding: 30px 100px;
   margin: auto;
 }
 
@@ -81,7 +81,7 @@ i{
 
 .resume-content{
   display: flex;
-  padding-top: 50px;
+  padding-top: 20px;
   width: 100%;
   justify-content: space-between;
 }
@@ -101,7 +101,6 @@ i{
 .role{
   display:flex;
   flex-direction: column;
-  padding: 10px 0px;
   width: 100%;
 }
 
@@ -127,7 +126,6 @@ i{
 .role-description{
   display: flex;
   flex-direction: column;
-  padding-top: 10px;
 }
 .role-description p::before{
   content: "▹";
