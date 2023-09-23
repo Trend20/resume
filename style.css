@@ -18,6 +18,8 @@ h1, i{
 .resume{
   display: flex;
   flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
   width: 100%;
   padding: 30px 100px;
   margin: auto;
@@ -27,11 +29,15 @@ header{
   display: flex;
   width: 100%;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title{
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .title h1{
@@ -82,14 +88,15 @@ i{
 .resume-content{
   display: flex;
   padding-top: 20px;
+  flex-direction: column;
   width: 100%;
-  justify-content: space-between;
+
 }
 
 .experience{
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 100%;
 }
 
 .experience h1{
@@ -139,29 +146,21 @@ i{
 .sub-sections{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 100%;
 }
 
 .section{
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 20px !important;
 }
 
 .section-heading{
-  padding: 10px 0px;
+  padding: 5px 0px;
   width: 100%;
-}
-.section-heading h3{
-  padding-bottom: 5px;
 }
 
 .section-heading p{
   color: #444c64 !important;
-}
-
-.education,
-.projects,
-.interest{
-  margin-top: 10px;
 }
