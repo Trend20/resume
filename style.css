@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Playfair Display', serif; */
 }
 
 p{
@@ -13,6 +15,8 @@ p{
 
 h1, i{
   color: #3281e9;
+  font-size: 1.5rem !important;
+  padding-bottom: 5px;
 }
 
 .resume{
@@ -25,14 +29,13 @@ h1, i{
   margin: auto;
 }
 
-header{
+.top-content{
   display: flex;
-  width: 100%;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   align-items: center;
 }
-
 .title{
   display: flex;
   width: 100%;
@@ -43,24 +46,37 @@ header{
 .title h1{
   font-size: 4rem;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sub-heading{
   display: flex;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-.sub-heading h5{
-  line-height: 1.6;
-  padding: 10px 0px;
-  font-size: 1.5rem;
-  font-weight: 300;
+.sub-heading li{
+  list-style: none;
+}
+
+.sub-heading li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.sub-heading p{
+  margin-left: 10px;
 }
 
 .social-links{
   display: flex;
   align-items: center;
   width: 100%;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .social-links li{
