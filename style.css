@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
   /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Lora', serif; */
+  font-family: 'Lato', sans-serif;
 }
 
 p{
-  color: #8892b0 !important;
+  color: #575e72 !important;
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
 h1, i{
@@ -94,7 +100,7 @@ h1, i{
   display: flex;
   text-decoration: none;
   color: #444c64;
-  font-size: 1rem;
+  font-size: 1.2rem;
   align-items: center;
 }
 i{
