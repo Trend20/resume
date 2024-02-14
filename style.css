@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-p{
+p {
   color: #575e72 !important;
   font-size: 1.2rem;
   margin-top: 10px;
 }
 
-h1{
+h1 {
   color: #3281e9;
   font-size: 1.5rem !important;
   padding-bottom: 5px;
 }
 
-i{
+i {
   color: #3281e9;
-  font-size: .9rem !important;
+  font-size: 0.9rem !important;
 }
 
-.resume{
+.resume {
   display: flex;
   flex-direction: column;
   justify-content: center !important;
@@ -37,125 +37,122 @@ i{
   margin: auto;
 }
 
-.top-content{
+.top-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   align-items: center;
 }
-.title{
+.title {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.title h1{
-  font-size: 4rem;
+.title h1 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.sub-heading{
+.sub-heading {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.sub-heading li{
+.sub-heading li {
   list-style: none;
   padding: 0 10px;
 }
 
-.sub-heading li a{
+.sub-heading li a {
   text-decoration: none;
   color: #000;
 }
 
-.sub-heading p{
+.sub-heading p {
   margin-left: 10px;
 }
 
-.resume-content{
+.resume-content {
   display: flex;
   padding-top: 20px;
   flex-direction: column;
   width: 100%;
-
 }
 
-.experience{
+.experience {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.experience h1{
-  font-size: 1.5rem;
+.experience h1 {
   font-weight: 900;
   width: 100%;
 }
 
-.role{
-  display:flex;
+.role {
+  display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.section-title{
+.section-title {
   padding: 15px 0px;
   width: 100%;
 }
 
-.section-title h3{
+.section-title h3 {
   display: flex;
   opacity: 0.8;
   font-weight: bolder;
 }
 
-.section-title h5{
- margin-top: 3px;
-}
-
-.section-title p{
+.section-title h5 {
   margin-top: 3px;
 }
 
-.role-description{
+.section-title p {
+  margin-top: 3px;
+}
+
+.role-description {
   display: flex;
   flex-direction: column;
 }
-.role-description p::before{
+.role-description p::before {
   content: "▹";
 }
 
-.role-description p{
+.role-description p {
   padding: 1px 0px;
   color: #444c64 !important;
 }
 
-.sub-sections{
+.sub-sections {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.section{
+.section {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-top: 20px !important;
 }
 
-.section-heading{
+.section-heading {
   padding: 5px 0px;
   width: 100%;
 }
 
-.section-heading p{
+.section-heading p {
   color: #444c64 !important;
 }
